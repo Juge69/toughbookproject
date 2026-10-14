@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>laptop.cms — Dashboard</title>
-    <link rel="stylesheet" href="styles/home.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styling/home.css">
 </head>
 <body>
-    <div class="app-shell">
         <aside class="sidebar">
-            <a class="brand" href="#" aria-label="laptop.cms home">
+            <a class="branding" href="#" aria-label="laptop.cms home">
                 <span class="brand-mark">L</span>
                 <span>laptop.cms</span>
             </a>
@@ -24,17 +24,17 @@
             <div class="sidebar-label products-label">YOUR PRODUCTS <span>03</span></div>
             <nav class="product-nav" aria-label="Producten">
                 <a class="product-link selected" href="#">
-                    <span class="status-dot orange"></span>
+                    <span class="status-dot"></span>
                     <span class="product-nav-copy"><strong>G2</strong><small>g2.laptop.eu</small></span>
                     <span class="product-tag">EU</span>
                 </a>
                 <a class="product-link" href="#">
-                    <span class="status-dot blue"></span>
+                    <span class="status-dot"></span>
                     <span class="product-nav-copy"><strong>MK3</strong><small>mk3.laptop.nl</small></span>
                     <span class="product-tag">NL</span>
                 </a>
                 <a class="product-link" href="#">
-                    <span class="status-dot purple"></span>
+                    <span class="status-dot"></span>
                     <span class="product-nav-copy"><strong>APEX</strong><small>apex.laptop.eu</small></span>
                     <span class="product-tag">EU</span>
                 </a>
@@ -149,6 +149,5 @@
                 <span>DESIGNED FOR CLARITY <span class="footer-separator">·</span> V. 0.1</span>
             </footer>
         </main>
-    </div>
 </body>
 </html>
